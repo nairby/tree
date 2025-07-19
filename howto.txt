@@ -1,0 +1,8 @@
+To create a subdir for the subtree:
+
+	git subtree add -P subtree git@github.com:nairby/subtree.git main
+
+To update any remote changes (still in the top level directory):
+
+	git subtree pull -P subtree git@github.com:nairby/subtree.git main
+
